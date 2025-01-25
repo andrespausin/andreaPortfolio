@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header-container {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: #101010;
+    /* opacity: 10%; */
+}
+
+.inner-header {
+    width: 1000px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logo-container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo-container h1 {
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.logo-container h1 span {
+    font-weight: 800;
+}
+
+.navigation {
+    float: rigth;
+    height: 100%;
+    list-style: none;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0 20px;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: "Georgia";
+    font-size: 16px;
+}
+
+.navigation a li:last-child {
+    padding-right: 0;
+}
+
