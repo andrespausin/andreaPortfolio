@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css'
 import { Header } from "./components/header/heaeder"
 import { Swiper } from "./components/body/swipper/Swiper"
+import { Presentation } from "./components/body/presentation/Presentation"
 
 function App() {
   const listOfItems = [
@@ -22,6 +23,7 @@ function App() {
   return (
     <>  
       <Header />
+      <Presentation />
       <Swiper images={listOfItems} />
     </>
   )
